@@ -1,0 +1,78 @@
+body{
+  background-color: #76DFFB;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Solway', serif;
+}
+
+h2{
+  font-family: 'Solway', serif;
+}
+
+h3{
+  font-family: 'Solway', serif;
+}
+
+h4{
+  font-family: 'Solway', serif;
+}
+
+h5{
+  font-family: 'Solway', serif;
+}
+
+h6{
+  font-family: 'Solway', serif;
+}
+
+p{
+  font-family: 'Solway', serif;
+}
+
+label{
+  font-family: 'Solway', serif;
+}
+
+input{
+  font-family: 'Solway', serif;
+}
+
+.subtitle{
+  font-style: italic;
+  text-align: center;
+}
+
+.font{
+  font-family: 'Solway', serif;
+}
+
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background color: white;
+}
+
+.big{
+
+}
+
+li{
+  text-align: center;
+  display: inline-block;
+}
+
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background color: darkblue;
+}
