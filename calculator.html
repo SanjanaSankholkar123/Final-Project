@@ -2,33 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="finalproject.css">
-    <script src="finalproject.js"></script>
+    <script src="calculator.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Grade Calculators</title>
   </head>
   <body>
-    <h1><ul>
+      <h1 class="big">Grade Calculator</h1>
+    <h2><ul>
       <div>
-        <li><a href="file:///Users/sanjanasankholkar/Downloads/AP-Comp-Sci/js/Final-Project/finalproject.html#about">Home</li>
-        <li><a href="file:///Users/sanjanasankholkar/Downloads/AP-Comp-Sci/js/Final-Project/help.html">Grade Help</li>
+        <li><a href="file:///Users/sanjanasankholkar/Downloads/AP-Comp-Sci/js/Final-Project/finalproject.html#about">Home</a></li>
+        <li><a href="file:///Users/sanjanasankholkar/Downloads/AP-Comp-Sci/js/Final-Project/help.html">Grade Resources</a></li>
       </div>
-    </ul></h1><hr>
-    <!-- <form name="calculator">
+    </ul></h2><hr>
+    <form name="calculator">
         <h3>Final Grade Calculator:</h3>
           <span class="font">
           <label for="current">Current Grade:</label>
-          <input type="text" name="current" placeholder="ex. 92">
+          <input type="text" name="current" id="current_grade" placeholder="ex. 92">
           <br><br>
           <label for="goal">Wanted Grade:</label>
-          <input type="text" name="goal" placeholder="ex. 95">
+          <input type="text" name="goal" id="wanted_grade" placeholder="ex. 95">
           <br><br>
           <label for="worth">% of grade that final is worth:</label>
-          <input type="text" name="worth" placeholder="ex. 25">
+          <input type="text" name="worth" id="final_worth" placeholder="ex. 25">
           </span>
           <br><br>
-        <input type="submit" name="submit" value="Submit">
-    </form> -->
+        <input type="button" id="frm" onclick="display_grades();" name="submit" value="Submit">
+        <p id="answer"></p>
+    </form>
   </body>
 </html>
