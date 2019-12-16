@@ -1,55 +1,55 @@
-body{
+body {
   background-color: #76DFFB;
 }
 
-h1{
+h1 {
   text-align: center;
   font-family: 'Solway', serif;
 }
 
-h2{
+h2 {
   text-align: center;
   font-family: 'Solway', serif;
 }
 
-h3{
+h3 {
   font-family: 'Solway', serif;
 }
 
-h4{
+h4 {
   font-family: 'Solway', serif;
 }
 
-h5{
+h5 {
   font-family: 'Solway', serif;
 }
 
-h6{
+h6 {
   font-family: 'Solway', serif;
 }
 
-p{
+p {
   font-family: 'Solway', serif;
 }
 
-label{
+label {
   font-family: 'Solway', serif;
 }
 
-input{
+input {
   font-family: 'Solway', serif;
 }
 
-.subtitle{
+.subtitle {
   font-style: italic;
   text-align: center;
 }
 
-.font{
+.font {
   font-family: 'Solway', serif;
 }
 
-.nav{
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -57,16 +57,29 @@ input{
   background color: white;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-li{
-  text-align: center;
-  display: inline-block;
+.big {
+  font-size: 3.0rem;
 }
 
-li a{
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+li {
+  text-align: center;
+  display: inline-block;
+  float: center;
+}
+
+li a {
   display: block;
   color: black;
   text-align: center;
@@ -75,5 +88,5 @@ li a{
 }
 
 li a:hover {
-  background color: darkblue;
+  background color: blue;
 }
