@@ -1,3 +1,19 @@
+document.addEventListener("DOMContentLoaded", ready);
+
+function ready(){
+  let i = 0
+  console.log("hi")
+      setInterval(function(){
+        let color = ["black","grey","blue"]
+        document.getElementById('color3').style.color = color[i]
+          if(i == 2){
+              i = 0
+          } else {
+              i++
+          }
+      }, 500);
+}
+
 function display_grades(){ // I figured out how to use the values given to show some information.
   var current_grade = document.getElementById('current_grade').value;
   var wanted_grade = document.getElementById('wanted_grade').value;
