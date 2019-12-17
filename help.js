@@ -5,7 +5,7 @@ function ready(){
     let index = 0;
     while (index < subjects.length) {
       let help_elem = document.getElementById(help[index]);
-      let regular_elem = document.getElementById(subjects[index]);
+      let regular_elem = document.getElementById(subjects[index]); // Using help and other resources, I figured out how to make something show up once you check a text box.
       if (help_elem.checked){
         regular_elem.classList.remove('hide')
       }else {
@@ -35,7 +35,7 @@ function AddMathResources(){
   mathresources.classList.remove('hide_mathr');
 }
 
-function AcceptMathResources(){
+function AcceptMathResources(){ // I figured out how to show something after inputting that into a text box.
   let mathresources = document.getElementById('mathresources');
   let math_original_resources = document.getElementById('math_resources_text').innerHTML;
   let math_input = document.getElementById('math_input2').value;

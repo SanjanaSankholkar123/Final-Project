@@ -1,4 +1,4 @@
-function display_grades(){
+function display_grades(){ // I figured out how to use the values given to show some information.
   var current_grade = document.getElementById('current_grade').value;
   var wanted_grade = document.getElementById('wanted_grade').value;
   var final_worth = document.getElementById('final_worth').value;
