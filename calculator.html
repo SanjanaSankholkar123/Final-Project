@@ -14,24 +14,56 @@
     <h2><ul>
       <div>
         <li><a href="file:///Users/sanjanasankholkar/Downloads/AP-Comp-Sci/js/Final-Project/index.html">Home</a></li>
+        <li><a href="file:///Users/sanjanasankholkar/Downloads/AP-Comp-Sci/js/Final-Project/calculator.html">Grade Calculators</a></li>
         <li><a href="file:///Users/sanjanasankholkar/Downloads/AP-Comp-Sci/js/Final-Project/help.html">Grade Resources</a></li>
       </div>
     </ul></h2>
-    <form name="calculator">
-        <h3>Final Grade Calculator:</h3>
-          <span class="font">
+    <form name="calculator1">
+      <h3>What You Need to Get on the Final:</h3>
+        <span class="font">
           <label for="current">Current Grade:</label>
           <input type="text" name="current" id="current_grade" placeholder="ex. 92">
           <br><br>
           <label for="goal">Wanted Grade:</label>
           <input type="text" name="goal" id="wanted_grade" placeholder="ex. 95">
           <br><br>
-          <label for="worth">% of grade that final is worth:</label>
+          <label for="worth">Percent of Grade that the Final is Worth:</label>
           <input type="text" name="worth" id="final_worth" placeholder="ex. 25">
-          </span>
           <br><br>
-        <input type="button" id="frm" onclick="display_grades();" name="submit" value="Submit">
-        <p id="answer"></p>
+        </span>
+      <input type="button" onclick="display_grades();" name="submit" value="Submit">
+      <p id="answer"></p>
+    </form>
+    <br>
+    <form name="calculator2">
+      <h3>What the Final is Worth with a Point System:</h3>
+        <span class="font">
+          <label for="total_points">Total Points (Including the Final):</label>
+          <input type="text" name="total" id="tot_points" placeholder="ex. 1200">
+          <br><br>
+          <label for="final_points">Final Points:</label>
+          <input type="text" name="final" id="fin_points" placeholder="ex. 100">
+          <br><br>
+        </span>
+        <input type="button" onclick="point_system();" name="submit" value="Submit">
+        <p id='answer1'></p>
+    </form>
+    <br>
+    <form name="calculator3">
+      <h3>Your Final Grade:</h3>
+        <span class="font">
+          <label for="current">Current Grade:</label>
+          <input type="text" name="current" id="curr_grade" placeholder="ex. 92">
+          <br><br>
+          <label for="final">What You Got on the Final:</label>
+          <input type="text" name="final" id="fin_grade" placeholder="ex. 86">
+          <br><br>
+          <label for="worth">Percent of Grade that the Final is Worth:</label>
+          <input type="text" name="worth" id="fin_worth" placeholder="ex. 20">
+          <br><br>
+        </span>
+      <input type="button" onclick="more_grades();" name="submit" value="Submit">
+      <p id="ans"></p>
     </form>
   </body>
 </html>

@@ -88,5 +88,53 @@ li a {
 }
 
 li a:hover {
-  background color: blue;
+  background-color: darkgrey;
+}
+
+.hide_matht {
+  display: none;
+}
+
+.hide_mathr {
+  display: none;
+}
+
+.hide_sciencet {
+  display: none;
+}
+
+.hide_sciencer {
+  display: none;
+}
+
+.hide_elat {
+  display: none;
+}
+
+.hide_elar {
+  display: none;
+}
+
+.hide_sstudiest {
+  display: none;
+}
+
+.hide_sstudiesr {
+  display: none;
+}
+
+.hide_languaget {
+  display: none;
+}
+
+.hide_languager {
+  display: none;
+}
+
+.hide_othert {
+  display: none;
+}
+
+.hide_otherr {
+  display: none;
 }
